@@ -1,19 +1,19 @@
+import { Routes, Route } from 'react-router-dom';
+
+import About from '../../pages/About/About';
+import Geolocation from '../../pages/Geolocation/Geolocation';
+import Search from '../../pages/Search/Search';
+import ViewHistory from '../../pages/ViewHistory/ViewHistory';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Routes>
+        <Route path='/' element={<About />} />
+        <Route path='/geolocation' element={<Geolocation />} />
+        <Route path='/search' element={<Search />} />
+        <Route path='/viewhistory' element={<ViewHistory />} />
+      </Routes>
     </div>
   );
 }
