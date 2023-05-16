@@ -15,7 +15,7 @@ function App() {
       <div className='alignment'>
         <Header />
         <Routes>
-          <Route path='/about' element={<About />} />
+          <Route path='/' element={<About />} />
           <Route path='/geolocation' element={<Geolocation />} />
           <Route path='/search' element={<Search />} />
           <Route path='/viewhistory' element={<ViewHistory />} />
