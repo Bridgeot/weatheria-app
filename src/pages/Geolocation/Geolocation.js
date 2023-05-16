@@ -1,3 +1,11 @@
-export default function Geolocation(props) {
-    return <h1>Geolocation Page Component</h1>
+import "./Geolocation.css";
+
+function Geolocation(props) {
+    return (
+        <section className='geolocation-section'>
+            <h1>Geolocation Page Component</h1>
+        </section>
+    );
 }
+
+export default Geolocation;

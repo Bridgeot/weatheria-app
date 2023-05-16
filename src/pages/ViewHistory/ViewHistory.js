@@ -1,3 +1,11 @@
-export default function ViewHistory(props) {
-    return <h1>ViewHistory Page Component</h1>
+import "./ViewHistory.css";
+
+function ViewHistory(props) {
+    return (
+        <section className='viewhistory-section'>
+            <h1>View History Component</h1>
+        </section>
+    );
 }
+
+export default ViewHistory;
