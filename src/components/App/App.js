@@ -12,15 +12,15 @@ import Header from '../Header/Header';
 function App() {
   return (
     <div className='App'>
-      <Header />
-      <main className='container'>
+      <div className='alignment'>
+        <Header />
         <Routes>
           <Route path='/about' element={<About />} />
           <Route path='/geolocation' element={<Geolocation />} />
           <Route path='/search' element={<Search />} />
           <Route path='/viewhistory' element={<ViewHistory />} />
         </Routes>
-      </main>
+      </div>
     </div>
   );
 }
