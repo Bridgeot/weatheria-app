@@ -1,15 +1,20 @@
 import { Link } from 'react-router-dom';
 
-export default function Header(props) {
+import logo from '../../assets/weatheria-logo.png';
+
+function Header(props) {
     return (
-        <header>
-            <nav>
+        <nav>
+            <img id='logo-img' src={logo} alt='weatheria logo' />
+            <div className='links-align'>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/geolocation'>Geolocation</Link>
                 <Link to='/search'>Search</Link>
                 <Link to='/viewhistory'>ViewHistory</Link>
-            </nav>
-        </header>
+            </div>
+        </nav>
     );
 }
+
+export default Header;
