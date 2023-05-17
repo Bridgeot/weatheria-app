@@ -10,9 +10,9 @@ function Header(props) {
             </Link>
             <div className='links-align'>
                 <Link to='/'>About</Link>
-                <Link to='/geolocation'>Geolocation</Link>
+                <Link to='/geolocation'>My Location</Link>
                 <Link to='/search'>Search</Link>
-                <Link to='/viewhistory'>ViewHistory</Link>
+                <Link to='/viewhistory'>View History</Link>
             </div>
         </nav>
     );
