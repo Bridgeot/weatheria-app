@@ -49,6 +49,34 @@ function Search(props) {
                     </div>
                 </div>
             </div>
+            <div className='weather-conditions1'>
+                <div className='condition'>
+                    <h2 className='condition-name'>Feels Like</h2>
+                </div>
+                <div className='condition'>
+                    <h2 className='condition-name'>Humidity</h2>
+                </div>
+                <div className='condition'>
+                    <h2 className='condition-name'>Wind</h2>
+                </div>
+                <div className='condition'>
+                    <h2 className='condition-name'>Pressure</h2>
+                </div>
+            </div>
+            <div className='weather-conditions2'>
+                <div className='condition'>
+                    <h2 className='condition-name'>Visibility</h2>
+                </div>
+                <div className='condition'>
+                    <h2 className='condition-name'>Sunrise</h2>
+                </div>
+                <div className='condition'>
+                    <h2 className='condition-name'>Sunset</h2>
+                </div>
+                <div className='condition'>
+                    <h2 className='condition-name'>Clouds</h2>
+                </div>
+            </div>
         </section>
     );
 }
