@@ -17,6 +17,7 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: auto;
+    animation: cloud 80s linear infinite;
 }
 
 nav {
