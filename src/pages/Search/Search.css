@@ -64,7 +64,7 @@
     font-size: 2em;
 }
 
-.weather-degree {
+.weather-number {
     padding: 0 0 0 0.3em;
     font-size: 3em;
 }
@@ -97,4 +97,8 @@
 
 .condition-name {
     margin: 1em 0;
+}
+
+.condition-number {
+    font-size: 2em;
 }
