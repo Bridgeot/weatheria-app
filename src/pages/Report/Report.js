@@ -59,7 +59,7 @@ function Report() {
     }
 
     return (
-        <section className='geolocation-section'>
+        <section className='report-section'>
             <div className='search-container'>
                 <div className='search-align'>
                     <input id='search-input' type='text' placeholder='Search city' onChange={e => setCity(e.target.value)}/>
