@@ -2,7 +2,7 @@ import './Home.css';
 
 function Home() {
     return (
-        <section className='about-section'>
+        <section className='home-section'>
             <div className='about-container'>
                 <div className='about-align'>
                     <h1 className='about-title'>About Weatheria</h1>
