@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/weatheria-logo.png';
 
-function Header(props) {
+import './Header.css';
+
+function Header() {
     return (
         <nav>
             <Link to='/'>
@@ -10,8 +12,8 @@ function Header(props) {
             </Link>
             <div className='links-align'>
                 <Link to='/'>Home</Link>
-                <Link to='/geolocation'>My Location</Link>
-                <Link to='/search'>Search</Link>
+                <Link to='/dashboard'>Dashboard</Link>
+                <Link to='/report'>Report</Link>
                 <Link to='/viewhistory'>View History</Link>
             </div>
         </nav>
