@@ -16,7 +16,6 @@ import icon8 from '../../assets/cloud.svg';
 
 function Search() {
     const [ condition, setCondition ] = useState({
-        // OpenWeatherMap example city information
         city: undefined,
         description: undefined,
         temp: 0,
@@ -33,13 +32,11 @@ function Search() {
     });
     const [ city, setCity ] = useState('');
 
-    function handleClick() {
-        if(city !== '') {
+    const handleClick = async () => {
+        try {
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=fa0c49e26635d4780fb49a638b2ada3c&units=imperial`;
-            // Axios implementation info obtained from Postman 'Generating Client Code' document
-            axios.get(url)
-            .then((response) => {
-                setCondition({...condition, 
+            const response = await axios.get(url);
+            setCondition({
                 city: response.data.name, 
                 description: response.data.weather[0].description, 
                 temp: Math.round(response.data.main.temp), 
@@ -53,11 +50,9 @@ function Search() {
                 visibility: Math.floor(response.data.visibility / 1000), 
                 sunrise: moment.unix(response.data.sys.sunrise).format('hh:mm a'),
                 sunset: moment.unix(response.data.sys.sunset).format('hh:mm a'),
-                })
-              })
-              .catch((error) => {
-                console.log(error);
-              });
+            })
+        } catch (error) {
+
         }
     }
 
