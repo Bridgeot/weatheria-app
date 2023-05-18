@@ -1,23 +1,23 @@
-import './App.css';
-
 import { Routes, Route } from 'react-router-dom';
 
-import About from '../../pages/About/About';
-import Geolocation from '../../pages/Geolocation/Geolocation';
-import Search from '../../pages/Search/Search';
+import Header from '../Header/Header';
+
+import Home from '../../pages/Home/Home';
+import Dashboard from '../../pages/Dashboard/Dashboard';
+import Report from '../../pages/Report/Report';
 import ViewHistory from '../../pages/ViewHistory/ViewHistory';
 
-import Header from '../Header/Header';
+import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <div className='alignment'>
+      <div className='App-alignment'>
         <Header />
         <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='/geolocation' element={<Geolocation />} />
-          <Route path='/search' element={<Search />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/report' element={<Report />} />
           <Route path='/viewhistory' element={<ViewHistory />} />
         </Routes>
       </div>
