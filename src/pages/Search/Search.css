@@ -13,7 +13,7 @@
 
 .search-align {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 0.5em;
 }
 
@@ -39,6 +39,7 @@
     font-family: inherit;
     border: 0.09375em solid #1384f2;
     border-radius: 1.5em;
+    cursor: pointer;
 }
 
 .weather {
@@ -89,7 +90,7 @@
 }
 
 .condition {
-    background: rgb(19, 132, 242, 0.3);
+    background: rgb(19, 132, 242, 0.5);
     height: 20vh;
     width: 22.5vmin;
     border-radius: 1em;
@@ -97,8 +98,18 @@
 
 .condition-name {
     margin: 1em 0;
+    text-decoration: underline;
 }
 
 .condition-number {
     font-size: 2em;
+}
+
+.condition-icon {
+    margin: 1.25em 0 0;
+    width: 5vmin;
+}
+
+.error-message {
+    text-align: center;
 }
