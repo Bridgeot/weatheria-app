@@ -1,6 +1,6 @@
 import './About.css';
 
-function About(props) {
+function About() {
     return (
         <section className='about-section'>
             <div className='about-container'>
