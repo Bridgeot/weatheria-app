@@ -57,7 +57,7 @@ function Dashboard() {
     }
 
     return (
-        <section className='search-section'>
+        <section className='dashboard-section'>
             <div className='search-container'>
                 <div className='search-align'>
                     <input id='search-input' type='text' placeholder='Search city' onChange={e => setCity(e.target.value)}/>
