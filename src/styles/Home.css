@@ -5,7 +5,7 @@
 }
 
 .about-container {
-    margin: 16.5em 0 4em;
+    margin: 14.5em 0 4em;
     color: #1384f2;
     font-family: 'Lato', sans-serif;
 }
@@ -27,7 +27,7 @@
     padding: 1.5em;
     width: 55%;
     color: #ffffff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: inherit;
     font-size: 1em;
     border-radius: 1em;
     text-align: justify;
