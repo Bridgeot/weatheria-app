@@ -11,16 +11,16 @@ This project was successfully created through the use of the following technolog
 ## Screenshots
 
 Home Screen:
-<img src="https://imgur.com/y8MRE1p" alt="Weatheria App Home Screen">
+<img src="https://imgur.com/a/OZ9hQv3" alt="Weatheria App Home Screen">
 
 Dashboard Screen:
-<img src="https://imgur.com/ExdT3U5" alt="Weatheria App Dashboard Screen">
+<img src="https://imgur.com/a/S14ciQU" alt="Weatheria App Dashboard Screen">
 
 Report Screen:
-<img src="https://imgur.com/t087HYy" alt="Weatheria App Report Screen">
+<img src="https://imgur.com/a/DAnwnU1" alt="Weatheria App Report Screen">
 
 Checklist Screen:
-<img src="https://imgur.com/undefined" alt="Weatheria App Checklist Screen">
+<img src="https://imgur.com/a/0x9EECS" alt="Weatheria App Checklist Screen">
 
 ## Next Steps
 - Add mobile responsiveness.
