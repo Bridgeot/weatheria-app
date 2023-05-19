@@ -11,7 +11,7 @@ This project was successfully created through the use of the following technolog
 ## Screenshots
 
 Home Screen:
-<img src="https://i.imgur.com/J5vS3iF.png" alt="Weatheria App Home Screen">
+<img src="https://i.imgur.com/HflU0at.png" alt="Weatheria App Home Screen">
 
 Dashboard Screen:
 <img src="https://i.imgur.com/jcVQISQ.png" alt="Weatheria App Dashboard Screen">
@@ -31,4 +31,4 @@ Checklist Screen:
 
 
 ## Contribution Guidelines
-If you'd like to fork and clone this repo and make your own changes feel free to do so as well!
+If you'd like to contribute to this project, then please submit a pull request. You may also fork and clone this repo and make your own changes as well!
