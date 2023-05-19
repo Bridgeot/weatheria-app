@@ -14,7 +14,7 @@ function Header() {
                 <Link to='/'>Home</Link>
                 <Link to='/dashboard'>Dashboard</Link>
                 <Link to='/report'>Report</Link>
-                <Link to='/viewhistory'>View History</Link>
+                <Link to='/checklist'>Checklist</Link>
             </div>
         </nav>
     );
