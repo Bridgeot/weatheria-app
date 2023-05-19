@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background: url('../assets/cloud03.png'), url('../assets/cloud02.png'), url('../assets/cloud01.png'), #1384f2;
+    background: url('../assets/cloud03.png'), url('../assets/cloud02.png'), url('../assets/cloud01.png'), linear-gradient(#1384f2, #8abeff);
     color: #2b283a;
     display: flex;
     justify-content: center;
