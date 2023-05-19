@@ -3,7 +3,7 @@ import axios from 'axios';
 // parse and display time for unix data
 import moment from 'moment';
 
-import './Report.css';
+import '../../styles/Report.css';
 
 function Report() {
     const [ condition, setCondition ] = useState({

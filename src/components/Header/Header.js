@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/weatheria-logo.png';
 
-import './Header.css';
+import '../../styles/Header.css';
 
 function Header() {
     return (

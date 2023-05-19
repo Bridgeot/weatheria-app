@@ -1,4 +1,4 @@
-import './Checklist.css';
+import '../../styles/Checklist.css';
 
 function Checklist() {
     return (

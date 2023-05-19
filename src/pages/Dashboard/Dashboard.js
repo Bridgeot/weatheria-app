@@ -3,7 +3,7 @@ import axios from 'axios';
 // parse and display time for unix data
 import moment from 'moment';
 
-import './Dashboard.css';
+import '../../styles/Dashboard.css';
 
 import icon1 from '../../assets/thermometer.svg';
 import icon2 from '../../assets/water.svg';

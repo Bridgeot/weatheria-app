@@ -7,7 +7,7 @@ import Dashboard from '../../pages/Dashboard/Dashboard';
 import Report from '../../pages/Report/Report';
 import Checklist from '../../pages/Checklist/Checklist';
 
-import './App.css';
+import '../../styles/App.css';
 
 function App() {
   return (
