@@ -1,0 +1,44 @@
+.checklist-section {
+    background: rgb(255, 255, 255, 0.5);
+    padding: 0 0 0 10.625em;
+    width: 137.5vmin;
+}
+
+.checklist-container {
+    margin: 9em 0 4em;
+    color: #1384f2;
+    font-family: 'Lato', sans-serif;
+}
+
+.checklist-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checklist-title {
+    font-size: 2.3em;
+}
+
+.checklist-subtitle {
+    font-family: inherit;
+}
+
+.checklist-form {
+    background: rgb(19, 132, 242, 0.5);
+    margin: 2.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: #ffffff;
+    height: 40vh;
+    width: 25vw;
+    border-radius: 1em;
+}
+
+.checklist-item {
+    margin: 0 0 1em;
+}

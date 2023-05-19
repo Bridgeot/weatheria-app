@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background: url('../assets/cloud03.png'), url('../assets/cloud02.png'), url('../assets/cloud01.png'), #1384f2;
+    color: #2b283a;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: auto;
+    animation: cloud 80s linear infinite;
+}
+
+h1, h2, h3, p {
+    margin: 0.1em;
+}
+
+.App-alignment {
+    display: grid;
+    height: 100vh;
+}
+
+@keyframes cloud {
+	100% {
+		background-position: 2200px 0;
+	}
+}
